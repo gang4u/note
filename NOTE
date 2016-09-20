@@ -27,7 +27,9 @@ git  branch  dev1
 git checkout dev1
 3.Add-Commit-push
 4.Go to master branch
-5.Merge
+5.git merge dev1
+6.git push
+7.delete branch dev1
 
 
 
