@@ -20,11 +20,17 @@ git reset --hard origin/master
 
 tcpdump -i any -p -s 0 -w /sdcard/0907.pcap
 
-******************
-Test:Dev
-*****************
+Steps:
+1.Create dev1 branch:
+git  branch  dev1
+2.Switch to dev1 branch:
+git checkout dev1
+3.Add-Commit-push
+4.Go to master branch
+5.Merge
 
-Dev1******/
+
+
 
 
 
