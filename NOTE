@@ -1,0 +1,27 @@
+
+tcpdump -i any -p -s 0 -w /sdcard/0907.pcap
+
+buildProguardJar -> Build jar
+
+sudo apt-get build-dep python-matplotlib
+pip install matplotlib
+
+find / -name '*' | xargs grep 'route'
+在根文件夹下查找含有关键字route的文件，列出文件名和route所在行。
+
+find / -name '*.txt' | xargs grep 'route'
+在根文件夹下查找后缀名为txt且含有关键字route的文件，列出文件名和route所在行。
+
+grep -rl "keyword" ./
+
+放弃本地的修改：
+git fetch --all
+git reset --hard origin/master
+
+tcpdump -i any -p -s 0 -w /sdcard/0907.pcap
+
+
+
+
+
+
